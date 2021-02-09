@@ -7,15 +7,13 @@ const name = prompt("Enter your name:");
 const units = Number(prompt("Enter your number of units:"));
 
 console.log(`Hello ${name}`);
-if (units >= 0 && units <= 30) {
+if ((units >= 0) && (units <= 30)) {
     console.log("Your grade standing is Freshman");
-}
-if (units >= 31 && units <= 60) {
+} else if ((units >= 31) && (units <= 60)) {
     console.log("Your grade standing is Sophomore");
-}
-if (units >= 61 && units <= 90) {
+} else if ((units >= 61) && (units <= 90)) {
     console.log("Your grade standing is Junior");
 }
-if (units > 91) {
+else {
     console.log("Your grade standing is Senior");
 }
