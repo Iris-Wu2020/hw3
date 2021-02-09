@@ -1,5 +1,5 @@
-/* Tutorial 4
-Example 1 JavaScript code
+/* Assignment 3
+Exercise 1 JavaScript code
 */
 console.log("Wu's Output from Assignment 3 Exercise 1");
 
