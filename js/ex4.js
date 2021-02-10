@@ -11,12 +11,11 @@ while (count < 3) {
         count ++;
     }else {
         console.log(`You entered the correct password after ${count} attempt(s).`);
-        break;
+        return;
     }
 }
-if (count >= 3) {
-    console.log(`Your account is locked! You falied to enter the correct password ${count} times.`) 
-}
+console.log(`Your account is locked! You falied to enter the correct password ${count} times.`) 
+
 
 
     
