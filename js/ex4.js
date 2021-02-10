@@ -14,6 +14,9 @@ while (count < 3) {
         break;
     }
 }
-console.log(`Your account is locked! You falied to enter the correct password ${count} times.`)
+if (count >= 3) {
+    console.log(`Your account is locked! You falied to enter the correct password ${count} times.`) 
+}
+
 
     
